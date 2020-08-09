@@ -8,13 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate{
 
+    @IBOutlet weak var condtionImageView: UIImageView!
+    @IBOutlet weak var temperatureLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var searchTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
+        
+        searchTextField.delegate = self
+        
     }
-
-
+    
+    @IBAction func searchPressed(_ sender: UIButton) {
+        print(searchTextField.text!)
+    }
 }
 

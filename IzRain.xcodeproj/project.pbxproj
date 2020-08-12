@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		71465AE624DE762D00142848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71465AE524DE762D00142848 /* AppDelegate.swift */; };
 		71465AE824DE762D00142848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71465AE724DE762D00142848 /* SceneDelegate.swift */; };
-		71465AEA24DE762D00142848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71465AE924DE762D00142848 /* ViewController.swift */; };
+		71465AEA24DE762D00142848 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71465AE924DE762D00142848 /* WeatherViewController.swift */; };
 		71465AED24DE762D00142848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71465AEB24DE762D00142848 /* Main.storyboard */; };
 		71465AEF24DE763100142848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71465AEE24DE763100142848 /* Assets.xcassets */; };
 		71465AF224DE763100142848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71465AF024DE763100142848 /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		71465AE224DE762D00142848 /* IzRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IzRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71465AE524DE762D00142848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71465AE724DE762D00142848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71465AE924DE762D00142848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71465AE924DE762D00142848 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		71465AEC24DE762D00142848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71465AEE24DE763100142848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71465AF124DE763100142848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		71465B0724DFB9A000142848 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				71465AE924DE762D00142848 /* ViewController.swift */,
+				71465AE924DE762D00142848 /* WeatherViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 				};
 			};
 			buildConfigurationList = 71465ADD24DE762C00142848 /* Build configuration list for PBXProject "IzRain" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -171,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71465AEA24DE762D00142848 /* ViewController.swift in Sources */,
+				71465AEA24DE762D00142848 /* WeatherViewController.swift in Sources */,
 				71465B0C24DFBA0A00142848 /* WeatherData.swift in Sources */,
 				71465AE624DE762D00142848 /* AppDelegate.swift in Sources */,
 				71465B0924DFB9DC00142848 /* WeatherManager.swift in Sources */,

@@ -11,14 +11,11 @@ import CoreLocation
 
 class WeatherViewController: UIViewController {
     
-    
+
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var searchTextField: UITextField!
-    
-    
-
     
     var weatherManager = WeatherManager()
     let locationManager = CLLocationManager()
@@ -74,8 +71,6 @@ extension WeatherViewController: UITextFieldDelegate
 //MARK: - WeatherManagerDelegate
 
 extension WeatherViewController: WeatherManagerDelegate {
-    
-        
         func didUpdateWeather(_ weatherManager: WeatherManager, weather: WeatherModel){
             DispatchQueue.main.async {
                 self.temperatureLabel.text = weather.temperatureString
@@ -103,5 +98,6 @@ extension WeatherViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
     }
+    
 }
 

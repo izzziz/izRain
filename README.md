@@ -7,3 +7,7 @@ Working with openWeather API by making HHTP requests with URLSession
 Parse JSON with the native JSONDecoder
 Using computed properties, closures and extensions
 Using Core location to get the GPS data
+
+## Screenshot
+
+![](cc.png)
